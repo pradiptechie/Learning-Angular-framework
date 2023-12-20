@@ -3,11 +3,10 @@ import { CommonModule } from '@angular/common';
 
 
 
-
 @NgModule({
   declarations: [],
   imports: [
     CommonModule
   ]
 })
-export class NavBarModule { }
+export class HomeComponentsModule { }
