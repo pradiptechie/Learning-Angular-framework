@@ -8,11 +8,11 @@ import {AboutComponent} from './components/about/about.component';
 import {NotFoundComponent} from './not-found/not-found.component';
 
 export const routes: Routes = [
-    { path: 'home-component', component: HomeComponent },
-    { path: 'gallery-component', component: GalleryComponent },
-    { path: 'contact-component', component: ContactComponent },
-    { path: 'about-component', component: AboutComponent },
+    { path: 'home', component: HomeComponent },
+    { path: 'gallery', component: GalleryComponent },
+    { path: 'contact', component: ContactComponent },
+    { path: 'about', component: AboutComponent },
 
-    { path: '', redirectTo: '/home-component', pathMatch: 'full'  },
+    { path: '', redirectTo: '/home', pathMatch: 'full'  },
     { path: '**', component: NotFoundComponent, pathMatch: 'full'},
 ];
