@@ -1,0 +1,148 @@
+
+
+.formBtn {
+    margin-top: 1%;
+    padding: 0 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formBtn:hover {
+    background-color: #45a049;
+}
+
+
+/* ----------------Admin and Staff panel login----------------------------- */
+
+.loginHeading {
+    text-align: center;
+    color: #6eff73;
+}
+
+.loginForm {
+    margin-top: 20px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.inputWrapper {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    text-indent: 20px;
+}
+input[type="password"] {
+    text-indent: 20px;
+}
+input[type="number"] {
+    text-indent: 20px;
+}
+
+
+
+/* ------------------------------Farmer login--------------------------------- */
+
+#farmerSignupForm{
+    margin-left: 1%;
+    margin-top: 1%;
+
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.input-group input {
+    flex: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.radio-group {
+    margin-top: -2%;
+    margin-bottom: 1%;
+    margin-left: 42%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px; 
+}
+
+.radio-group label {
+    margin-right: 10px; 
+}
+
+
+#farmerRegBtn {
+    margin-top: 2%;
+    margin-left: 12%;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#farmerRegBtn:hover {
+    background-color: #45a049;
+}
+
+
+.label{
+    margin-right: 10%;
+    color: white;
+}
+
+
+#farmerLoginlink{
+    margin-left: 350px;
+
+}
+#farmerLoginlink button {
+    margin-top: 1%;
+    font-weight: 400;
+    color:#008FFE;
+    font-size: 1.0rem;
+    text-shadow: #fff;
+    background-color: #ffffffe5;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.61); */
+    padding: 7px 20px;
+
+    border-radius: 10px;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+#or{
+    color: rgba(245, 245, 245, 0.76);
+    margin-left: 50%;
+}

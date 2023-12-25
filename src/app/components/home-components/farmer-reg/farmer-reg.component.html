@@ -1,1 +1,35 @@
-<p>farmer-reg works!</p>
+
+
+        <!-- Farmer Register----------------------------------- -->
+        <div id="farmerForm" class="form-container">
+            <!-- <h2>Code for log as Farmer Form goes here...</h2> -->
+            <h3 class="loginHeading">Register new Farmer !</h3>
+            <form id="farmerForm" method="post">
+                <div class="input-group">
+                    <input type="text" placeholder="First Name *" name="firstName" id="firstName" onkeydown="return alphaOnly(event);" required>
+                    <input type="text" placeholder="Last Name" name="lastName" id="lastName" onkeydown="return alphaOnly(event);" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Address *" name="address" id="address" required>
+                    <input type="text" placeholder="Contact No *" name="contactNo" id="contactNo" onkeydown="numOnly(event);" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" placeholder="Password *" name="password" id="password" required>
+                    <input type="password" placeholder="Confirm Password *" name="confirmPassword" id="confirmPassword" required>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" name="gender" value="male" id="male" required> <span class="label">Male</span>
+                    <input type="radio" name="gender" value="female" id="female" required> <span class="label">Female</span>
+                    <button type="submit" id="farmerRegBtn" class="formBtn" name="farmerReg">Register</button>
+                </div>
+
+                <div id="or">
+                    -- or --
+                </div>
+                <span id="farmerLoginlink">
+                    <button onclick="showForm('farmerLoginForm')"><u>Already has an Account ? LogIn Now</u></button>
+                </span>
+
+            </form>
+        </div>
+

@@ -1,0 +1,62 @@
+#adminLoginForm {
+    margin: 0 auto;
+    padding: 50px;
+    margin-left: 8%;
+}
+
+.loginHeading {
+    text-align: center;
+    color: #6eff73;
+}
+
+.loginForm {
+    margin-top: 20px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.inputWrapper {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    text-indent: 20px;
+}
+input[type="password"] {
+    text-indent: 20px;
+}
+input[type="number"] {
+    text-indent: 20px;
+}
+
+
+.formBtn {
+    margin-top: 1%;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formBtn:hover {
+    background-color: #45a049;
+}
+
+#adminLoginBtn{
+    margin-left: 69%;
+
+}

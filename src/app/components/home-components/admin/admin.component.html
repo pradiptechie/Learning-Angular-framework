@@ -1,1 +1,24 @@
-<p>admin works!</p>
+          <!-- Admin Login----------------------------------- -->
+          <div id="adminForm" class="form-container">
+            <!-- <h2>Code for log as Admin Form goes here...</h2> -->
+            <div id="adminLoginForm">
+                <h3 class="loginHeading">Login as Admin</h3>
+                
+                <form method="post" class="loginForm" id="adminLogin">
+                    <div class="formGroup">
+                        <div class="inputWrapper">
+                            <input type="text" placeholder="User Name *" name="username1" onkeydown="return alphaOnly(event);" required/>
+                        </div>
+                    </div>
+                    <div class="formGroup">
+                        <div class="inputWrapper">
+                            <input type="password" placeholder="Password *" name="password1" required/>
+                        </div>
+                        <!-- <input type="submit" class="formBtn" name="submit1" value="Login"/> -->
+                        <button type="submit" id="adminLoginBtn" class="formBtn" name="submit1">Login</button>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
